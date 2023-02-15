@@ -15,10 +15,8 @@ import time
 import sys
 import pandas as pd
     #——————————————登录功能——————————————
-# username=input("请输入账号:")
-username = '209400124'
-password = '302013'
-# password=input('请输入密码:')
+username=input("请输入账号:")
+password=input('请输入密码:')
 opt=ChromeOptions()
     #创建参数对象
     #opt.headless=True
